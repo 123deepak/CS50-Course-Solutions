@@ -1,0 +1,12 @@
+1.  This header file is used where we want to define several integral type with specific width requirement.
+2.  They are similarly like unsigned char, unsigned short, unsigned int and unsigned double
+3.  BYTE = 1 byte, DWORD = 4 Bytes, WORD = 2 bytes, LONG = 4 Bytes
+4.  For Hexadecimal it should be "0x"
+5.  bfSize is the size of whole image, biSize is the size of information header
+6.  BitMap image is top down DIB if it is negative.
+7.  biBitCount tells us the same.
+8.  Either file is not present or not able to open.
+9.  It is 1 always because we are reading the one struct at one time.
+10. Value should be 3
+11. It is used to set the position of cursor according to the size of offset provided.
+12. It tells you the current position of cursor in the file.
