@@ -1,0 +1,51 @@
+html, body, #map-canvas, .container-fluid
+{
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+}
+#form
+{
+    position: absolute;
+    top: 28px;
+    width: 100%;
+}
+#form .form-group
+{
+    display: flex;
+    justify-content: center;
+}
+#q
+{
+    background-color: #ffffff !important;
+    width: 300px;
+}
+#info
+{
+    margin: 0;
+    overflow: auto;
+}
+#info ul
+{
+    margin-bottom: 0;
+}
+.tt-menu
+{
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-top: 1px;
+    max-height: 150px;
+    overflow-y: auto;
+    width: 300px;
+}
+.tt-suggestion.tt-cursor {
+    background-color: #0097cf;
+    color: #fff;
+    cursor: pointer;
+}
+.tt-suggestion {
+    margin: 0;
+    padding: 6px 12px;
+}
